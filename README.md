@@ -29,7 +29,7 @@
       </table>
 </b>
 
-#Note: 
+# Note:
 you can customize this bot, just by changing the nlu, domain, and stories
 If you are interested in more details, you can visit the official website at : https://rasa.com/docs/
 
