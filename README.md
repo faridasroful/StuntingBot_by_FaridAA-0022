@@ -30,8 +30,8 @@
 </b>
 
 # Note:
-you can customize this bot, just by changing the nlu, domain, and stories
-If you are interested in more details, you can visit the official website at : https://rasa.com/docs/
+you can customize this bot, just by changing the nlu, domain, and stories.
+\n\nIf you are interested in more details, you can visit the official website at : https://rasa.com/docs/
 
 # Docs
 ![Capture](https://user-images.githubusercontent.com/74556111/210117931-46fd008d-208c-4a78-8bbb-db7a1a5482ef.gif)
