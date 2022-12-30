@@ -1,0 +1,186 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - starting
+  - pengertian_stunting
+  - anak_pendek_stunting
+  - golongan_stunting
+  - 1000hpk
+  - penyebab_stunting
+  - penyebab_stunting_ekonomi
+  - dampak_stunting
+  - tanya_pencegahan_stunting
+  - pencegahan_stunting
+  - pengertian_intervensi_gizi
+  - efektif_intervensi_gizi
+  - arti_konvergensi
+  - aksi_konvergensi
+
+responses:
+  utter_greet:
+  - text: "Selamat datang di Layanan Informasi Seputar Stunting"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Apakah ini membantu?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Terimakasih kembali, Senang bisa membantu :)"
+    image: "https://www.gemasulawesi.com/wp-content/uploads/2021/04/Stop-Stunting.jpg"
+
+  utter_iamabot:
+  - text: "Aku merupakan bot yang dibuat oleh Farid Asroful Anam dengan NIM 20.01.53.0022 yang terinspirasi dari Rasa Chatbot. "
+
+  utter_jawaban_starting:
+  - text: "Ada yang bisa saya bantu? Silahkan tanyakan seputar Stunting
+  \n\n"
+
+  utter_tanya_lagi:
+  - text: "Apakah masih ada yang ingin ditanyakan?"
+
+  utter_pengertian_stunting:
+  - text: "Stunting adalah kondisi gagal tumbuh pada anak berusia dibawah lima tahun (balita) akibat kekurangan asupan gizi kronis 
+  \n\ndan infeksi berulang terutama pada periode 1.000 Hari Pertama Kehidupan (HPK), yaitu dari janin hingga anak berusia 
+  \n\n23 bulan. Stunting ditentukan oleh indeks antropometri yang menggunakan data panjang badan berdasarkan umur untuk anak usia 
+  \n\ndibawah 2 tahun dan menggunakan data tinggi badan berdasarkan umur untuk anak usia 2 tahun ke atas. Dalam laporan Riskesdas, 
+  \n\nkondisi stunting merupakan gabungan antara anak dengan status gizi “pendek” dan “sangat pendek”.
+  \n\n"
+
+  utter_anak_pendek_stunting:
+  - text: "Meski kondisi anak pendek atau sangat pendek digunakan sebagai indikasi masalah gizi kronis, namun anak pendek atau 
+  \n\nsangat pendek belum tentu stunting akibat masalah gizi kronis, karena pendek atau sangat pendek bisa juga terjadi karena faktor 
+  \n\nketurunan (meski secara proporsi umumnya sangat kecil dalam suatu populasi). Diperlukan pemeriksaan lebih lanjut oleh 
+  \n\ntenaga kesehatan terlatih untuk menentukan bahwa seorang anak pasti stunting akibat masalah gizi kronis atau tidak.
+  \n\n"
+
+  utter_golongan_stunting:
+  - text: "Stunting bukan penyakit, tapi kondisi gagal tumbuh karena kurangnya asupan makanan dan terjadinya infeksi berulang dalam 
+  \n\njangka waktu tertentu (kronis) yang terjadi pada periode emas atau 1.000 HPK seorang anak yaitu  sejak berada dalam kandungan 
+  \n\nhingga usia 2 tahun.
+  \n\n"
+
+  utter_1000hpk:
+  - text: "1.000 Hari Pertama Kehidupan (1.000 HPK) sering disebut sebagai Periode Emas karena pada masa itulah stunting dapat 
+  \n\nterjadi dan sekaligus dapat dicegah atau masih dapat dikoreksi. Jika tidak dicegah atau dikoreksi dalam kurun waktu tersebut, 
+  \n\nmaka berbagai gangguan pertumbuhan maupun perkembangan yang diakibatkan oleh masalah gizi kronis ini umumnya akan menjadi 
+  \n\npermanen atau tidak dapat dikoreksi lagi.
+  \n\n"
+
+  utter_penyebab_stunting:
+  - text: "Ada dua kelompok faktor resiko/penyebab stunting sebagai indikasi masalah gizi kronis: 
+  \n\n1. Penyebab langsung: yaitu kurangnya asupan makanan bergizi dan infeksi berulang dalam jangka waktu tertentu (kronis).
+  \n\n2. Penyebab tidak langsung: terdiri dari berbagai faktor yang mempengaruhi terjadinya penyebab langsung dari stunting akibat 
+  \n\nmasalah gizi kronis. Faktor-faktor tersebut antara lain terkait masalah akses terhadap makanan bergizi, pola asuh yang 
+  \n\nkurang optimal, kurangnya akses terhadap layanan kesehatan, praktik hygiene, atau masalah kesehatan lingkungan yang 
+  \n\nmempengaruhi akses ke air bersih dan sanitasi (lingkungan). Penyebab tidak langsung ini dipengaruhi oleh berbagai faktor 
+  \n\nlain yang mendasar seperti faktor ekonomi, perdagangan, urbanisasi, globalisasi, sistem pangan, jaminan sosial, 
+  \n\nsistem kesehatan, pembangunan pertanian, dan/atau pemberdayaan perempuan.
+  \n\n"
+
+  utter_penyebab_stunting_ekonomi:
+  - text: "Mengingat faktor resiko/penyebab yang multidimensi, maka stunting akibat masalah gizi kronis tidak hanya terkait 
+  \n\ndengan masalah ekonomi. Baik anak dari keluarga yang mampu maupun tidak mampu secara ekonomi dapat beresiko mengalami stunting. 
+  \n\nSebagai contoh: pola asuh yang kurang optimal, kondisi lingkungan yang kurang bersih atau mengalami polusi, akses ke 
+  \n\ninformasi gizi kesehatan yang tepat dapat menjadi faktor resiko stunting yang tidak selalu dikarenakan masalah ekonomi keluarga.
+  \n\n"
+
+  utter_dampak_stunting:
+  - text: "Selain gangguan pertumbuhan yang diindikasikan oleh stunting, biasanya anak juga dapat mengalami gangguan perkembangan 
+  \n\nakibat masalah gizi kronis, baik gangguan pada perkembangan kognitif, motorik, ataupun sistem kekebalan tubuh. Gangguan  
+  \n\nperkembangan inilah yang kemudian dapat menyebabkan anak mengalami kesulitan belajar atau mudah terserang penyakit. 
+  \n\nKondisi kurang gizi kronis yang tidak dicegah atau terlambat dikoreksi dapat meningkatkan resiko terkena penyakit tidak 
+  \n\nmenular (PTM) di usia lebih lanjut (seperti diabetes, penyakit jantung, kanker, stroke, dan lain-lain) pada level individu 
+  \n\ndan menurunkan angka produktivitas sumber daya manusia pada level populasi.
+  \n\nSelain itu menurut Jurnal FKM Undip Ridha Rahmawati Tahun 2009 lalu, didapatkan hasil bahwa terdapat hubungan yang signifikan 
+  \n\nantara stunting dengan skor IQ anak usia sekolah dasat. Selain hal tersebut, UNICEF juga menyebutkan bahwa anak yang stunting 
+  \n\nmemiliki rata-rata IQ 11 point lebih rendah dibandingkan dengan rata-rata anak yang tidak terkena stunting.
+  \n\n"
+
+  utter_tanya_pencegahan_stunting:
+  - text: "Stunting dapat dicegah atau dikoreksi jika dilakukan sebelum atau selama periode emas. Karenanya berbagai intervensi 
+  \n\npenting dilakukan sejak dini, mulai dari mempersiapkan kondisi gizi dan kesehatan calon ibu hingga memastikan kesehatan  
+  \n\nyang baik dan gizi yang cukup terutama pada 1000 Hari Pertama Kehidupan, yaitu sejak anak berada dalam kandungan hingga usia 
+  \n\n2 tahun.
+  \n\n"
+    image: "https://reisha.net/blog/wp-content/uploads/2018/09/infografis-imunisasi-sehat-cegah-stunting-reishanet.png
+    \n\n" 
+
+  utter_pencegahan_stunting:
+  - text: "Cara mencegah stunting ini salah satunya dapat dilakukan dengan Intervensi Gizi. 
+  \n\nBerikut merupakan macam-macam intervensi gizi yang bisa dilakukan:
+  \n\n1. Intervensi Gizi Spesifik (berkontribusi 30%)
+  \n\nIntervensi yang ditujukan kepada anak dalam 1.000 Hari Pertama Kehidupan (HPK). Kegiatan ini umumnya dilakukan oleh sektor 
+  \n\nkesehatan. Intervensi spesifik bersifat jangka pendek, hasilnya dapat dicatat dalam waktu relatif pendek.
+  \n\n2. Intervensi Gizi Sensitif (berkontribusi 70 %)
+  \n\nIntervensi yang ditujukan melalui berbagai kegiatan pembangunan diluar sektor kesehatan. Sasarannya adalah masyarakat umum, 
+  \n\ntidak khusus untuk 1.000 HPK. 
+  \n\n"
+    image: "https://reisha.net/blog/wp-content/uploads/2018/09/infografis-pola-makan-cegah-stunting-reishanet.png
+    \n\n"
+
+  utter_pengertian_intervensi_gizi:
+  - text: " Intervensi gizi merupakan suatu tindakan yang didalamnya mencakup perencanaan dan implementasi untuk mengatasi masalah  
+  \n\ngizi yang sudah diidentifikasi. Sedangkan untuk tujuannya sendiri adalah untuk Mengatasi atau memperbaiki masalah gizi 
+  \n\ndengan perencanaan dan implementasi yang tepat sesuai dengan kebutuhan dan kondisi yang dihadapi (perilaku, faktor, resiko, 
+  \n\nlingkungan, dan status kesehatan).
+  \n\n"
+    image: "https://reisha.net/blog/wp-content/uploads/2018/09/infografis-asi-cegah-stunting-reishanet.png
+    \n\n"
+
+  utter_efektif_intervensi_gizi:
+  - text: "Dengan melakukan intervensi gizi ini, terbukti cukup efektif dalam menurunkan angka stunting di Indonesia. Angka stunting 
+  \n\nsecara nasional menunjukkan perbaikan dengan turunnya tren  sebesar 3,3 persen dari 27.7 persen tahun 2019 menjadi 24,4 persen 
+  \n\ntahun 2021. Data ini disampaikan oleh Wakil Menteri Kesehatan dr. Dante Saksono Harbuwono saat acara Launching Hasil Studi 
+  \n\nSatus Gizi Balita Indonesia (SSGI) 2021 di Jakarta yang mana hal tersebut menuntun kita dalam aksi konvergensi.
+  \n\n"
+
+  utter_arti_konvergensi:
+  - text: "Konvergensi merupakan pendekatan penyampaian intervensi yang dilakukan secara terkoordinir, terintegrasi, dan bersama-sama 
+  \n\nuntuk mencegah stunting kepada sasaran prioritas. Sedangkan Aksi Konvergensi adalah instrumen dalam bentuk kegiatan yang 
+  \n\ndigunakan untuk meningkatkan pelaksanaan integrasi intervensi gizi dalam pencegahan dan penurunan stunting. 
+  \n\nAksi konvergensi sering juga disebut sebagai Aksi Integrasi. Aksi ini digunakan untuk meningkatkan kualitas pendekatan 
+  \n\npelaksanaan program dan perilaku lintas sektor agar program dan kegiatan intervensi gizi dapat digunakan oleh keluarga 
+  \n\nsasaran yaitu rumah tangga 1.000 HPK dengan lebih efektif. 
+  \n\n"
+
+  utter_aksi_konvergensi:
+  - text: "Kita dapat menanggulangi stunting dengan melakukan aksi konvergensi. Berikut merupakan beberapa aksi dalam konvergensi : 
+  \n\n1. Aksi 1 – Analisis Situasi 
+  \n\nidentifikasi sebaran stunting, ketersediaan program, dan kendala dalam pelaksanaan integrasi.
+  \n\n2. Aksi 2 – Rencana Kegiatan 
+  \n\nmenyusun rencana kegiatan untuk meningkatkan intervensi gizi.
+  \n\n3. Aksi 3 – Rembuk Stunting 
+  \n\nmenyelenggarakan rembuk stunting tingkat kabupaten/kota.
+  \n\n4. Aksi 4 – Peraturan Bupati/Walikota tentang Peran Desa; 
+  \n\nmemberikan kepastian hukum bagi desa untuk menjalankan peran 
+  \n\ndan kewenangan desa dalam intervensi gizi terintegrasi.
+  \n\n5. Aksi 5 – Pembinaan KPM; 
+  \n\nmemastikan tersedianya dan berfungsinya kader yang membantu pemerintah desa dalam pelaksanaan 
+  \n\nintervensi gizi terintegrasi di tingkat desa.
+  \n\n6. Aksi 6 – Sistem Manajemen Data; 
+  \n\nmeningkatkan sistem pengelolaan data stunting dan cakupan intervensi di tingkat 
+  \n\nkabupaten/kota.
+  \n\n7. Aksi 7 – Pengukuran dan Publikasi Stunting; 
+  \n\nmelakukan pengukuran pertumbuhan dan perkembangan anak balita dan publikasi 
+  \n\nangka stunting di kabupaten/kota.
+  \n\n8. Aksi 8 – Review Kinerja Tahunan; 
+  \n\nmelakukan review kinerja pelaksanaan program dan kegiatan terkait penurunan stunting 
+  \n\nselama satu tahun terakhir.
+  \n\n"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
