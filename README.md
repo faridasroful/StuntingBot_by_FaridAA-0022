@@ -29,6 +29,10 @@
       </table>
 </b>
 
+#Note: 
+you can customize this bot, just by changing the nlu, domain, and stories
+If you are interested in more details, you can visit the official website at : https://rasa.com/docs/
+
 # Docs
 ![Capture](https://user-images.githubusercontent.com/74556111/210117931-46fd008d-208c-4a78-8bbb-db7a1a5482ef.gif)
 ![Screenshot](https://user-images.githubusercontent.com/74556111/210117528-520b082b-5bf3-4d75-af40-0ff98cddbe9c.jpg)
