@@ -30,7 +30,7 @@
 </b>
 
 # Docs
-![Capture](https://user-images.githubusercontent.com/74556111/210117588-b394cfc4-c5ea-4cfd-a0e3-f391d0e473c9.gif)
+![Capture](https://user-images.githubusercontent.com/74556111/210117931-46fd008d-208c-4a78-8bbb-db7a1a5482ef.gif)
 ![Screenshot](https://user-images.githubusercontent.com/74556111/210117528-520b082b-5bf3-4d75-af40-0ff98cddbe9c.jpg)
 ![Screenshot2](https://user-images.githubusercontent.com/74556111/210117541-11edc900-f05f-4728-82bc-cdcc69fb75ab.jpg)
 ![Screenshot3](https://user-images.githubusercontent.com/74556111/210117562-5245f1cf-a098-4e5e-a366-0487535ca692.jpg)
