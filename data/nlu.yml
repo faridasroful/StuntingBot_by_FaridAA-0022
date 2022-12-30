@@ -1,0 +1,238 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hallo
+    - halo
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - assalamualaikum
+    - samlekom
+    - shalom
+    - salom
+    - tes
+    - test
+    - p
+    - cek
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - terimakasih
+    - thanks
+    - thx
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - yap 
+    - yeah
+    - benar
+    - membantu
+    - iyo
+    - hooh
+    - heem
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - nope
+    - salah
+    - tidak
+    - bukan
+    - jangan
+    - ora
+    - ogk
+    - gk
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - apakah kamu bot?
+    - apakah kamu manusia?
+
+- intent: starting
+  examples: |
+    - aku mau tanya dong terkait dengan stunting
+    - aku mau tanya dong
+    - saya mau tanya dong
+    - saya ingin bertanya
+    - aku ingin bertanya
+    - ada yang ingin aku tanyakan
+    - aku punya pertanyaan
+
+- intent: pengertian_stunting
+  examples: |
+    - saya ingin tahu apa itu stunting?
+    - pengertian stunting
+    - pengertian dari stunting
+    - apa itu stunting?
+    - apakah stunting itu?
+    - apakah yang dimaksud dengan stunting?
+    - arti stunting
+    - arti dari stunting
+    - stunting itu apasih
+
+- intent: anak_pendek_stunting
+  examples: |
+    - anak saya pendek, apakah terkena stunting?
+    - apakah anak pendek selalu stunting?
+    - apakah anak pendek tergolong stunting?
+
+- intent: golongan_stunting
+  examples: |
+    - apakah stunting termasuk sebuah penyakit?
+    - apakah stunting termasuk kedalam sebuah penyakit?
+    - apakah stunting tergolong sebagai penyakit?
+    - apakah stunting dianggap sebagai penyakit?
+    - apakah stunting diklasifikasikan sebagai penyakit?
+
+- intent: 1000hpk
+  examples: |
+    - apa itu 1000 HPK?
+    - apa itu 1000 Hari Pertama Kehidupan
+    - apa itu periode emas
+    - arti dari periode emas
+    - maksud dari periode emas
+    - mengapa dinamakan periode emas?
+
+- intent: penyebab_stunting
+  examples: |
+    - apa sih penyebab stunting?
+    - apa yang menyebabkan stunting?
+    - faktor apa saja yang menyebabkan stunting?
+    - bagaimana stunting bisa ada?
+    - stunting disebabkan oleh apa?
+    - mengapa terjadi stunting?
+    - kenapa ada stunting?
+
+- intent: penyebab_stunting_ekonomi
+  examples: |
+    - saya miskin, apakah anak saya akan terkena stunting?
+    - mengapa stunting hanya menyerang orang miskin?
+    - apakah keluarga miskin pasti anaknya mengalami stunting?
+
+- intent: dampak_stunting
+  examples: |
+    - berbahayakah stunting itu?
+    - apakah stunting berbahaya?
+    - apa dampak dari stunting?
+    - mengapa stunting berbahaya?
+
+- intent: tanya_pencegahan_stunting
+  examples: |
+    - apakah stunting dapat dicegah?
+    - bisakah stunting dicegah?
+    - bisakah anak saya terhindar dari stunting?
+
+- intent: pencegahan_stunting
+  examples: |
+    -   
+    - gimana cara mencegah stunting?
+    - bagaimana penanganan stunting?
+    - gimana penanganan stunting?
+    - cara apa saja yang bisa dilakukan untuk menangani stunting?
+
+- intent: pengertian_intervensi_gizi
+  examples: |
+    - apakah intervensi gizi itu?
+    - apa arti dari intervensi gizi?
+    - pengertian intervensi gizi
+    - pengertian dari intervensi gizi
+    - maksud dari intervensi gizi
+    - arti dari intervensi gizi
+    - arti intervensi gizi
+
+- intent: efektif_intervensi_gizi
+  examples: |
+    - seberapa efektif intervensi gizi?
+    - alasan mengapa perlu adanya intervensi gizi?
+    - mengapa perlu adanya intervensi gizi?
+    - apakah efektif intervensi gizi ini?
+
+- intent: arti_konvergensi
+  examples: |
+    - apa itu konvergensi?
+    - arti dari konvergensi
+    - maksud dari konvergemsi
+    - pengertian konvergensi
+    - pengertian dari konvergensi
+    - arti konvergensi
+
+- intent: aksi_konvergensi
+  examples: |
+    - apa saja aksi dari konvergensi?
+    - bagaimana cara menanggulangi stunting?
+    - gimana cara menanggulangi stunting?
+    - bagaimana cara mengobati stunting?
+    - gimana cara mengobati stunting?
+    - seberapa banyak aksi dari konvergensi

@@ -1,0 +1,18 @@
+version: "2.0"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'Aku merupakan bot yang dibuat oleh Farid Asroful Anam yang terinspirasi dengan Rasa Chatbot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Say 'Selamat Datang, ada yang bisa saya bantu?' anytime the user starting
+  steps:
+  - intent: starting
+  - action: utter_jawaban_starting

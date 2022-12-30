@@ -1,0 +1,170 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: starting path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_happy
+  - intent: starting
+  - action: utter_jawaban_starting
+
+- story: pengertian stunting path
+  steps:
+  - intent: pengertian_stunting
+  - action: utter_pengertian_stunting
+
+- story: anak pendek stunting path
+  steps:
+  - intent: anak_pendek_stunting
+  - action: utter_anak_pendek_stunting
+
+- story: golongan stunting path
+  steps:
+  - intent: golongan_stunting
+  - action: utter_golongan_stunting
+
+- story: 1000hpk path
+  steps:
+  - intent: 1000hpk
+  - action: utter_1000hpk
+
+- story: penyebab_stunting path
+  steps:
+  - intent: penyebab_stunting
+  - action: utter_penyebab_stunting
+
+- story: penyebab_stunting_ekonomi path
+  steps:
+  - intent: penyebab_stunting_ekonomi
+  - action: utter_penyebab_stunting_ekonomi
+
+- story: dampak_stunting path
+  steps:
+  - intent: dampak_stunting
+  - action: utter_dampak_stunting
+
+- story: tanya_pencegahan_stunting path 1
+  steps:
+  - intent: tanya_pencegahan_stunting
+  - action: utter_tanya_pencegahan_stunting
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_tanya_lagi
+  - intent: affirm
+
+- story: tanya_pencegahan_stunting path 2
+  steps:
+  - intent: tanya_pencegahan_stunting
+  - action: utter_tanya_pencegahan_stunting
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_tanya_lagi
+  - intent: deny
+  - action: utter_goodbye
+
+- story: tanya_pencegahan_stunting path 3
+  steps:
+  - intent: tanya_pencegahan_stunting
+  - action: utter_tanya_pencegahan_stunting
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: pencegahan_stunting path 1
+  steps:
+  - intent: pencegahan_stunting
+  - action: utter_pencegahan_stunting
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_tanya_lagi
+  - intent: affirm
+
+- story: pencegahan_stunting path 2
+  steps:
+  - intent: pencegahan_stunting
+  - action: utter_pencegahan_stunting
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_tanya_lagi
+  - intent: deny
+  - action: utter_goodbye
+
+- story: pencegahan_stunting path 3
+  steps:
+  - intent: pencegahan_stunting
+  - action: utter_pencegahan_stunting
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: pengertian_intervensi_gizi path 1
+  steps:
+  - intent: pengertian_intervensi_gizi
+  - action: utter_pengertian_intervensi_gizi
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_tanya_lagi
+  - intent: affirm
+
+- story: pengertian_intervensi_gizi path 2
+  steps:
+  - intent: pengertian_intervensi_gizi
+  - action: utter_pengertian_intervensi_gizi
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_tanya_lagi
+  - intent: deny
+  - action: utter_goodbye
+
+- story: pengertian_intervensi_gizi path 3
+  steps:
+  - intent: pengertian_intervensi_gizi
+  - action: utter_pengertian_intervensi_gizi
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: efektif_intervensi_gizi path
+  steps:
+  - intent: efektif_intervensi_gizi
+  - action: utter_efektif_intervensi_gizi
+
+- story: arti_konvergensi path
+  steps:
+  - intent: arti_konvergensi
+  - action: utter_arti_konvergensi
+
+- story: aksi_konvergensi path
+  steps:
+  - intent: aksi_konvergensi
+  - action: utter_aksi_konvergensi
